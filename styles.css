@@ -1,0 +1,60 @@
+/* The overall styling for the popup */
+
+body {
+    font-family: Arial, sans-serif; /* Using Arial font, but you can use any other preferred font */
+    background-color: #f3f3f3; /* Light gray background for the popup */
+    width: 400px; /* Setting a fixed width for the popup */
+    padding: 10px; /* Padding around the edges */
+}
+
+/* Styling for the list of tabs in each instance */
+
+ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+li {
+    border: 1px solid white; /* White border around each tab */
+    padding: 8px 16px; /* Padding inside the tab's box */
+    margin: 4px 0; /* Margin around each tab */
+    border-radius: 5px; /* Rounded corners */
+    list-style-type: none; /* Remove the default bullet points */
+    background-color: rgba(0, 0, 0, 0.1); /* A slightly dark background */
+}
+
+/* Styling for the links (i.e., the tab titles) */
+
+a {
+    text-decoration: none; /* Removing underlines from links */
+    color: inherit; /* Inherits color from parent, useful if you set a color on the li or another parent element */
+}
+
+/* Styling for the window/instance dropdown */
+
+.window {
+    margin-bottom: 15px; /* Space between each window/instance */
+}
+
+/* Styling for the input field where the instance name can be edited */
+
+.instance-name {
+    border: none; /* No border to make it look like plain text when not in focus */
+    background: none; /* Transparent background */
+    width: 90%; /* Almost the full width of the parent element */
+    font-size: 1em; /* Standard font size */
+    color: #333; /* Dark gray color */
+}
+
+    .instance-name:focus {
+        outline: none; /* Removing the default focus outline for cleaner aesthetics */
+    }
+
+/* Styling for the buttons in the popup */
+
+button {
+    margin-top: 5px; /* Little space above the button */
+    padding: 5px 10px; /* Padding inside the button */
+    font-size: 0.9em; /* Slightly smaller font than the normal size */
+    cursor: pointer; /* Hand cursor when hovering over the button */
+}
